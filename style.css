@@ -1,0 +1,90 @@
+body {
+  font-family: "ubuntu", Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  font-family: "walter turncoat", Arial, Helvetica, sans-serif;
+}
+
+/* Navigation et titre*/
+.header {
+  background-color: #fcc404;
+  height: 255px;
+}
+
+.navigation {
+  display: flex;
+  height: 90px;
+  width: 670px;
+  margin: auto;
+  background-color: #d9d9d9;
+}
+
+.logo,
+.titre,
+.blog {
+  display: inline-block;
+  justify-content: center;
+  margin: auto;
+}
+.navigation h1 {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.navigation a {
+  text-decoration: none;
+  color: black;
+}
+.navigation ul {
+  list-style-type: none;
+}
+
+.navigation img {
+  border-radius: 700px;
+  max-width: 670px;
+  max-height: 75px;
+  margin-top: 5px;
+}
+
+/*posts*/
+.posts {
+  max-width: 500px;
+  margin: auto;
+}
+
+.posts h2 {
+  color: #fe5d58;
+  font-family: "Walter turncoat", Arial, Helvetica, sans-serif;
+}
+
+.posts {
+  display: flex;
+  margin-bottom: 24px;
+}
+
+.posts-img img {
+  max-height: 200px;
+  max-width: 180px;
+  object-fit: cover;
+  border-radius: 2px;
+  margin-top: 6px;
+  margin-bottom: 6px;
+  margin-left: 15px;
+}
+/*footer*/
+.footer {
+  display: flex;
+  justify-content: center;
+  bottom: 0;
+  padding-top: 12px;
+  margin-left: 0px;
+  margin-right: 0px;
+  position: sticky;
+}
+
+.footer a {
+  color: #4c8c94;
+  margin-right: 5px;
+  margin-left: 5px;
+}
