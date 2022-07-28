@@ -2,8 +2,30 @@ body {
   font-family: "ubuntu", Arial, Helvetica, sans-serif;
 }
 
-h1 {
+h1,
+h2 {
   font-family: "walter turncoat", Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+h2 {
+  font-size: 45px;
+}
+
+p {
+  font-family: "ubuntu", Arial, Helvetica, sans-serif;
+  line-height: 160%;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+a {
+  color: #00a4d6;
+  text-decoration: none;
+}
+
+a:hover {
+  font-weight: bold;
 }
 
 /* Navigation et titre*/
@@ -16,6 +38,7 @@ h1 {
 
 .navigation {
   display: flex;
+  justify-content: space-between;
   height: 90px;
   width: 670px;
   margin: auto;
@@ -34,10 +57,6 @@ h1 {
   justify-content: center;
   margin: auto;
 }
-.titre,
-.blog {
-  z-index: 2;
-}
 
 .logo {
   -webkit-transform: scale(2.3);
@@ -45,50 +64,46 @@ h1 {
   -o-transform: scale(2.3);
   transform: scale(2.3);
   transition: all 0.3s;
-  z-index: 3;
-}
-.navigation h1 {
-  text-align: center;
-  margin-bottom: 50px;
+  z-index: 2;
 }
 
 .navigation a {
   text-decoration: none;
   color: black;
 }
-.navigation ul {
-  list-style-type: none;
-}
 
 .navigation img {
   border-radius: 700px;
   max-width: 670px;
   max-height: 75px;
-  margin-top: 5px;
 }
 
 /*posts*/
 .posts {
-  max-width: 500px;
+  max-width: 800px;
   margin: auto;
+  justify-content: center;
 }
 
 .posts h2 {
   color: #fe5d58;
   font-family: "Walter turncoat", Arial, Helvetica, sans-serif;
+  margin-bottom: 2px;
 }
 
 .posts {
   display: flex;
   margin-bottom: 24px;
+  margin-top: 24px;
+  padding: 10px;
 }
 
 .posts-img img {
-  max-height: 200px;
-  max-width: 180px;
+  max-height: 400px;
+  max-width: 200px;
   object-fit: cover;
   border-radius: 2px;
-  margin-top: 6px;
+  margin-top: 30px;
   margin-bottom: 6px;
   margin-left: 15px;
 }
@@ -105,7 +120,31 @@ h1 {
 }
 
 .footer a {
-  color: #4c8c94;
   margin-right: 5px;
   margin-left: 5px;
+}
+
+/*About*/
+.about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.about p {
+  max-width: 800px;
+}
+
+.about > img {
+  height: 250px;
+  width: 250px;
+  object-fit: cover;
+  margin-top: 24px;
+  margin-bottom: 24px;
+  border-radius: 50%;
+}
+
+.DreDrey {
+  color: #fe5d58;
 }
