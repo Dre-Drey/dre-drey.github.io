@@ -15,18 +15,18 @@ h2 {
 
 h3 {
   font-size: 25px;
-  margin-bottom: 7px;
+  margin-bottom: 8px;
 }
 
 p {
   font-family: "ubuntu", Arial, Helvetica, sans-serif;
-  line-height: 160%;
-  font-weight: 500;
+  line-height: 24px;
+  font-weight: 400;
   font-size: 20px;
 }
 
 a {
-  color: #00a4d6;
+  color: #069fce;
   text-decoration: none;
 }
 
@@ -98,7 +98,6 @@ a:hover {
 
 .posts h2 {
   color: #fe5d58;
-  font-family: "Walter turncoat", Arial, Helvetica, sans-serif;
   margin-bottom: 2px;
   margin-top: 2px;
   font-size: 24px;
@@ -132,7 +131,10 @@ hr {
   text-align: center;
   justify-content: center;
   margin: auto;
-  line-height: 25px;
+  line-height: 24px;
+}
+.chapeau p {
+  font-size: 16px;
 }
 
 .infos {
@@ -168,6 +170,58 @@ ul {
   font-size: 15px;
   line-height: 25px;
   margin-top: 10px;
+}
+
+/*revue de presse*/
+.sous_titre {
+  text-align: center;
+}
+.sous_titre p {
+  margin-bottom: 32px;
+  margin-top: 0px;
+}
+
+.sous_titre h3 {
+  margin-bottom: 1px;
+  margin-top: 64px;
+}
+
+.reference {
+  margin-bottom: 8px;
+}
+
+.reference p {
+  margin-bottom: 2px;
+  font-size: 18px;
+}
+
+.info-reference p {
+  margin-top: 0px;
+  margin-bottom: 8px;
+  font-size: 14px;
+}
+
+.citation {
+  margin-bottom: 32px;
+  margin-top: 16px;
+}
+.citation p {
+  width: 600px;
+  margin: auto;
+  font-size: 14px;
+}
+
+figcaption {
+  font-size: 14px;
+  color: grey;
+  text-align: center;
+  margin-top: 8px;
+}
+
+.guillemet {
+  font-size: 45px;
+  color: #989595f0;
+  line-height: 28px;
 }
 /*footer*/
 .footer {
