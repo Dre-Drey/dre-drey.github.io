@@ -2,6 +2,12 @@ body {
   font-family: "ubuntu", Arial, Helvetica, sans-serif;
 }
 
+@media screen and (max-width: 500px) {
+  html {
+    padding: 8px;
+  }
+}
+
 h1,
 h2,
 h3 {
@@ -119,7 +125,11 @@ a:hover {
   margin-left: 35px;
   align-items: center;
 }
-
+@media screen and (max-width: 500px) {
+  .posts {
+    flex-direction: column;
+  }
+}
 /*Articles*/
 hr {
   color: #000000;
@@ -221,7 +231,6 @@ figcaption {
 .guillemet {
   font-size: 45px;
   color: #989595f0;
-  line-height: 28px;
 }
 /*footer*/
 .footer {
