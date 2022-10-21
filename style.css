@@ -51,8 +51,8 @@ a:hover {
 .navigation {
   display: flex;
   justify-content: space-between;
-  height: 90px;
-  width: 670px;
+  height: 30%;
+  width: 80%;
   margin: auto;
   background-color: #d9d9d9;
   position: absolute;
@@ -88,6 +88,22 @@ a:hover {
   border-radius: 700px;
   max-width: 670px;
   max-height: 75px;
+}
+
+@media screen and (max-width: 700px) {
+  .navigation {
+    flex-direction: column;
+    height: 50%;
+    width: 80%;
+  }
+  .navigation img {
+    max-height: 40px;
+  }
+  .logo,
+  .titre,
+  .bloc {
+    display: inline;
+  }
 }
 
 /*posts*/
