@@ -52,12 +52,14 @@ a:hover {
 
 .navigation {
   display: flex;
+  background-image: url("/Pictures/Header.png");
+  background-size: cover;
   justify-content: space-between;
   height: 30%;
   width: 80%;
   margin: auto;
-  padding-bottom: 16px;
-  background: linear-gradient(45deg, #7d7b7b, #d9d9d9);
+  /*padding-bottom: 16px;
+  /*background: linear-gradient(45deg, #7d7b7b, #d9d9d9);*/
   border-radius: 20px;
   position: absolute;
   top: 50%;
@@ -93,6 +95,7 @@ a:hover {
   border-radius: 700px;
   max-width: 670px;
   max-height: 75px;
+  /*border: 0.01rem solid #000000;*/
 }
 
 @media screen and (max-width: 700px) {
@@ -292,6 +295,24 @@ figcaption {
 }
 
 /*About*/
+.intro {
+  display: flex;
+  width: 500px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+.profil-pic {
+  display: block;
+}
+.profil-pic img {
+  height: 150px;
+  width: 150px;
+  object-fit: cover;
+  margin-right: 20px;
+}
+.intro-content {
+  display: block;
+}
 .about {
   display: flex;
   flex-direction: column;
@@ -314,4 +335,10 @@ figcaption {
 
 .DreDrey {
   color: #fe5d58;
+}
+
+.Projets {
+  max-width: 700px;
+  align-items: center;
+  margin: auto;
 }
