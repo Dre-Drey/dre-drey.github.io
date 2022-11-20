@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Dre Drey Le blog</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,400;0,700;1,400;1,700&family=Walter+Turncoat&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="root-content">
+      <div class="header">
+        <div class="navigation">
+          <div class="titre">
+            <h1><a href="Projets.html">Projets</a></h1>
+          </div>
+          <div class="logo">
+            <a href="index.html">
+              <img
+                src="Pictures/Screen Shot 2022-07-25 at 14.45.25.png"
+                alt="logo
+              pinguin qui code"
+                margin="25px"
+            /></a>
+          </div>
+          <div class="blog">
+            <h1><a href="index.html">Le blog</a></h1>
+          </div>
+        </div>
+      </div>
+      <h2>Créer un blog</h2>
+      <div class="infos">
+        <div class="date">29 septembre 2022</div>
+        <div class="hashtag">#code #GitHub</div>
+      </div>
+      <div class="chapeau">
+        <p>
+          <i
+            >La première étape du blog : le créer. Pour cela, je ne me suis pas
+            vraiment embêtée avec des noms de domaines, des benchmarks
+            d'hébergements... Après avoir vu passer un tweet de
+            <a href="https://twitter.com/MathisHammel">Mathis Hammel</a>
+            sur le sujet, j'ai décidé de creuser l'option "hébergement par
+            GitHub". Un résumé de la version ultra light que j'ai appliquée.</i
+          >
+        </p>
+      </div>
+      <hr />
+      <div class="article">
+        <p>
+          Comment créer un site web statique et le publier simplement ? La page
+          GitHub (ou <i>GitHub Page</i>) ! <br />
+          Grosso modo, la page GitHub va te permettre de transformer un
+          repository GitHub avec tous ses fichiers en un site web : l'héberger,
+          lui donner une URL, le déployer, etc.
+        </p>
+        <p>
+          Le site créé sera
+          <a href="https://fr.wikipedia.org/wiki/Page_web_statique"
+            >"statique"</a
+          >, donc fait en HTML, CSS et Javascript (ce qui permet déjà pas mal de
+          choses).
+        </p>
+        <p>
+          Pour commencer, il faut avoir un compte GitHub. Si tu n'en as pas, il
+          suffit de le créer sur <a href="https://github.com/">GitHub</a>. Puis,
+          il faut créer un repository en allant sur le petit logo de ton compte
+          en haut à droite, en cliquant sur "<i>your repositories</i>" (ou tout
+          équivalent selon la langue), puis sur le bouton vert "<i>NEW</i>".
+          Attention, deux conditions à respecter :
+        </p>
+        <ul>
+          <li>
+            le nom du repository doit correspondre au nom de ton compte github
+            suivi de github.io. Par exemple, Mulan inscrite sur GitHub sous son
+            nom "Mulan" créera un repo mulan.github.io;
+          </li>
+          <li>
+            le repository doit être public (c'est un peu l'objectif de publier
+            un site web...).
+          </li>
+        </ul>
+        <figure>
+          <img
+            src="/Pictures/Repository_GitHub.png"
+            alt="Créer un repository GitHub"
+          />
+          <figcaption>Créer un repository GitHub.</figcaption>
+        </figure>
+        <p>
+          Une fois le repo créé, il suffit de procéder exactement comme pour
+          n'importe quel repo GitHub :
+        </p>
+        <ul>
+          <li>
+            Cloner le repo sur votre ordinateur (comme vous avez l'habitude, en
+            utilisant votre outil GitHub Desktop ou autre, via le terminal, via
+            GitHub..)
+          </li>
+          <li>
+            Créer votre page index.html. puis les fichiers associés dont vous
+            avez besoin. Relier les fichiers si besoin.
+          </li>
+        </ul>
+        <p>
+          Pour construire le site ensuite, deux options : coder le tout en
+          html/css/javascript ou prendre des canevas existants, comme par
+          exemple (liste pas du tout exhaustive) :
+        </p>
+        <ul>
+          <li>
+            blog :
+            <a href="https://www.w3schools.com/howto/howto_css_blog_layout.asp"
+              >créer un blog responsive par W3School.</a
+            >
+          </li>
+          <li>
+            portfolio : la vidéo de A à Z de
+            <a href="https://youtu.be/pQvykqRobGs">FrenchCoder</a>
+          </li>
+        </ul>
+        <p>
+          ou utiliser les layouts proposés par GitHub pour l'hébergement des
+          sites statiques, tels que
+          <a
+            href="https://www.smashingmagazine.com/2014/08/build-blog-jekyll-github-pages/"
+            >Jekyll</a
+          >
+          qui fournit des thèmes pour les pages GitHub.
+        </p>
+        <p>
+          A chaque fois qu'une modification sera push sur GitHub et qu'ainsi les
+          fichiers seront à jour sur votre compte GitHub, votre site sera mis à
+          jour ! Il est conseillé de maîtriser un minimum GitHub et pour les
+          plus courageux Git, par exemple via
+          <a
+            href="https://developer.mozilla.org/fr/docs/Learn/Common_questions/Using_Github_pages#:~:text=GitHub%20est%20un%20site%20de,am%C3%A9liorer%20et%20collaborer%20aux%20projets."
+            >la doc de MDN</a
+          >, ou des
+          <a href="https://learngitbranching.js.org/?locale=fr_FR"
+            >exercices de GIT</a
+          >.
+        </p>
+        <p>Pour aller plus loin :</p>
+        <ul>
+          <li>
+            La doc
+            <a
+              href="https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/about-github-pages-and-jekyll"
+              >Jekyll</a
+            >
+            pour GitHub ;
+          </li>
+          <li>
+            Quand <a href="https://pages.github.com/">GitHub</a> parle de ses
+            pages ;
+          </li>
+          <li>
+            <a href="https://nira.com/github-pages/">Nira</a> va beaucoup plus
+            loin que moi dans l'explication.
+          </li>
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>
