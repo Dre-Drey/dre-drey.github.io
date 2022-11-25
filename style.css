@@ -124,17 +124,24 @@ a:hover {
   }
   .navigation img {
     max-height: 25px;
-    margin-top: 5px;
   }
   .logo,
   .titre,
   .blog {
     display: inline;
   }
-
+  .logo {
+    order: 0;
+  }
+  .titre {
+    order: 1;
+  }
+  .blog {
+    order: 2;
+  }
   .navigation h1 {
-    font-size: 25px;
-    margin: 10px;
+    font-size: 15px;
+    margin: auto;
   }
 }
 
