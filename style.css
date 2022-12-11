@@ -93,6 +93,31 @@ a:hover {
   z-index: 2;
 }
 
+.logo:hover .mug {
+  transform: translateY(0px);
+  transition: all ease-out 0.3s;
+}
+.mug {
+  height: 8px;
+  position: relative;
+  transform: translateY(-50px);
+  top: -19px;
+  right: 19px;
+}
+
+/* .mug:hover {
+  -webkit-animation-name: mug;
+  -webkit-animation-duration: 1s;
+  -webkit-animation-count: 1;
+}
+@-webkit-keyframes mug {
+  from {
+    top: -50;
+  }
+  to {
+    top: -19px;
+  }
+} */
 .titre:hover {
   -webkit-transform: scale(1.2);
   -moz-transform: scale(1.2);
