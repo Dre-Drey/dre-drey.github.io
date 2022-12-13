@@ -471,3 +471,8 @@ figcaption {
   width: 160px;
   margin: auto;
 }
+
+.carousel {
+  max-width: 500px;
+  margin: auto;
+}
