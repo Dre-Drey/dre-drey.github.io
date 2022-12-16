@@ -54,8 +54,21 @@
         </p>
       </div>
       <hr />
+      <div class="buttons">
+        <p>Classer les projets par catégories :</p>
+        <button type="button" onclick="hideNoRecherche()">Recherche</button>
+        <button type="button" onclick="hideNoMusees()">Musées</button>
+        <button type="button" onclick="hideNoCode()">Code</button>
+        <button type="button" onclick="hideNoProjetSolo()">Projets solo</button>
+        <button type="button" onclick="hideNoProjetcollectif()">
+          Projets collectifs
+        </button>
+        <button type="button" onclick="hideNoEditorial()">Editorial</button>
+        <button type="button" onclick="hideNoExposition()">Expositions</button>
+        <button type="button" onclick="hideNoEvenement()">Evénements</button>
+      </div>
       <div class="Projets_presentation">
-        <div class="Projet">
+        <div class="Projet code projetsolo">
           <div class="Projet_pic">
             <img src="/Pictures/Bloody_Mary.jpg" />
           </div>
@@ -72,7 +85,7 @@
             <span>#code</span><span>#projetsolo</span>
           </div>
         </div>
-        <div class="Projet">
+        <div class="Projet recherche editorial">
           <div class="Projet_pic">
             <img src="/Pictures/BTC.png" />
           </div>
@@ -82,16 +95,16 @@
             >
             <div class="date"><p>Novembre 2020 - mars 2021</p></div>
             <p>
-              Transformation d'ateliers de discussion en une série de podcasts
-              mensuels consacrés à l'analyse représentations présentes dans les
-              clips de musique.
+              Transformation d'ateliers de discussion et de recherches en
+              podcasts mensuels consacrés à l'analyse des représentations dans
+              les clips de musique.
             </p>
           </div>
           <div class="Projet_tags">
             <span>#recherche</span><span>#éditorial</span>
           </div>
         </div>
-        <div class="Projet">
+        <div class="Projet musees expo">
           <div class="Projet_pic">
             <img src="/Pictures/imagine_japan.jpg" />
           </div>
@@ -110,7 +123,7 @@
           </div>
           <div class="Projet_tags"><span>#musées</span><span>#expo</span></div>
         </div>
-        <div class="Projet">
+        <div class="Projet musees evenement">
           <div class="Projet_pic">
             <img src="/Pictures/festival.jpeg" />
           </div>
@@ -128,7 +141,7 @@
             <span>#musées</span><span>#événement</span>
           </div>
         </div>
-        <div class="Projet">
+        <div class="Projet recherche etude">
           <div class="Projet_pic">
             <img src="/Pictures/CDE.jpeg" />
           </div>
@@ -144,7 +157,7 @@
             <span>#recherche</span><span>#étude</span>
           </div>
         </div>
-        <div class="Projet">
+        <div class="Projet code projetcollectif">
           <div class="Projet_pic">
             <img src="/Pictures/Devsplore.png" />
           </div>
@@ -161,7 +174,7 @@
             <span>#code</span><span>#projetcollectif</span>
           </div>
         </div>
-        <div class="Projet">
+        <div class="Projet code projetcollectif">
           <div class="Projet_pic">
             <img src="/Pictures/Aste-Astro.png" />
           </div>
@@ -170,8 +183,8 @@
             <div class="date"><p>Novembre 2022</p></div>
             <p>
               Découvre quel astéroïde était le plus proche de la terre le jour
-              de ta naissance ! Projet collectif dans le cadre de la formation
-              Ada Tech School dont l'objectif était la maîtrise des api.
+              de ta naissance ! Projet collectif autour des api dans le cadre de
+              la formation Ada Tech School.
             </p>
           </div>
           <div class="Projet_tags">
@@ -180,5 +193,6 @@
         </div>
       </div>
     </div>
+    <script src="./script.js"></script>
   </body>
 </html>
