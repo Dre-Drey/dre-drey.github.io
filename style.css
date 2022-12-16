@@ -127,12 +127,21 @@ a:hover {
 }
 
 .navigation img {
+  position: relative;
+  z-index: 1;
   border-radius: 700px;
   max-width: 600px;
   max-height: 50px;
   /*border: 0.01rem solid #000000;*/
 }
-
+@media {
+  .logo {
+    text-align: center;
+  }
+  .logo img {
+    margin-left: 12px;
+  }
+}
 @media screen and (max-width: 700px) {
   .navigation {
     flex-direction: column;
@@ -141,7 +150,7 @@ a:hover {
     margin-bottom: 15px;
   }
   .navigation img {
-    max-height: 25px;
+    max-height: 20px;
   }
   .logo,
   .titre,
@@ -150,9 +159,11 @@ a:hover {
   }
   .logo {
     order: 0;
+    text-align: center;
   }
   .titre {
     order: 1;
+    z-index: 3;
   }
   .blog {
     order: 2;
@@ -513,6 +524,12 @@ figcaption {
   margin: auto;
   text-align: center;
   max-width: 30%;
+}
+
+@media {
+  .buttons {
+    max-width: 60%;
+  }
 }
 
 .buttons button {
