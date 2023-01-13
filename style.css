@@ -445,7 +445,6 @@ figcaption {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  flex: 1;
   margin: auto;
   margin-bottom: 32px;
   max-width: 280px;
