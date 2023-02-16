@@ -56,7 +56,7 @@ a:hover {
   height: 140px;
   width: 100%;
   position: relative;
-  margin-bottom: 20px;
+  /* margin-bottom: 20px; */
 }
 
 .navigation {
@@ -367,6 +367,15 @@ figcaption {
 }
 
 /*About*/
+.container-1 {
+  background: #ffffff no-repeat fixed center;
+  background-size: cover;
+}
+
+.container-2 {
+  background: #fcc404 no-repeat fixed center;
+  background-size: cover;
+}
 .intro {
   display: flex;
   width: 600px;
@@ -394,12 +403,24 @@ figcaption {
 .intro-content {
   display: block;
 }
+
+.intro-content p {
+  font-size: 25px;
+  text-align: center;
+  line-height: 30px;
+}
+
+.intro-content h2 {
+  font-size: 60px;
+}
+
 .about {
+  width: 100%;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  text-align: center;
 }
 .about p {
   max-width: 800px;
@@ -424,6 +445,43 @@ figcaption {
   margin: auto;
 }
 
+.boutons {
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  margin: 20px;
+}
+/*Formations*/
+.formations {
+  flex-wrap: wrap;
+  width: 100%;
+  /* min-height: 50vh; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container-2 h2 {
+  padding-top: 54px;
+}
+
+.container-2 h3 {
+  padding: 28px;
+  margin-bottom: 28px;
+}
+.card {
+  height: 400px;
+  width: 400px;
+  background-color: #ffffff;
+  margin: auto;
+  border-radius: 10px;
+}
+
+.card-front {
+  padding: 18px;
+  text-align: center;
+}
 /*Projets*/
 .Projets_presentation {
   display: flex;
