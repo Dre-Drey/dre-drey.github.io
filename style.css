@@ -2,6 +2,9 @@
   margin: 0px;
   padding: 0px;
 }
+html {
+  scroll-behavior: smooth;
+}
 body {
   font-family: "ubuntu", Arial, Helvetica, sans-serif;
   margin: 0px;
@@ -137,7 +140,7 @@ hr {
 }
 
 .navigation img {
-  position: relative;
+  /* position: relative; */
   z-index: 1;
   border-radius: 700px;
   max-width: 600px;
@@ -447,7 +450,15 @@ figcaption {
   margin-bottom: 0px;
 }
 
-.about,
+.about {
+  width: 100%;
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .container-blog,
 .container-projets {
   width: 100%;
@@ -482,7 +493,8 @@ figcaption {
 }
 
 .boutons {
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   justify-content: center;
 }
 
@@ -509,7 +521,8 @@ button a {
   width: 30px;
   border: 2px solid black;
   position: absolute;
-  left: 48%;
+  left: 50%;
+  transform: translateX(-43px);
   margin: 24px;
   border-radius: 50px;
   border-color: #888889eb;
@@ -571,7 +584,7 @@ button a {
   position: absolute;
   left: 0;
   right: 0;
-  top: 950px;
+  top: 840px;
   opacity: 0.1;
 }
 
@@ -635,7 +648,7 @@ button a {
   width: 100%;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
-  padding: 16px;
+  /* padding: 16px; */
   border-radius: 10px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
